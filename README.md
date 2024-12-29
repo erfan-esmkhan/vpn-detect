@@ -8,21 +8,12 @@ A simple project using `react-vpn-detector` to check if a user is connected via 
 - Easy to use.
 - Lightweight.
 
-## Installation
-
-Install the package:
-
-```bash
-npm install react-vpn-detector
-```
-
-
 ## Getting Started & Usage
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/react-vpn-detector
+   git clone https://github.com/erfan-esmkhan/vpn-detect
    ```
 
 2. Go to the project folder:
