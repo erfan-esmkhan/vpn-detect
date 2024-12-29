@@ -1,4 +1,4 @@
-# react-vpn-detector
+# vpn detector
 
 A simple project using `react-vpn-detector` to check if a user is connected via VPN.
 
