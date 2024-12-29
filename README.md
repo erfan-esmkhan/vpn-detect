@@ -19,7 +19,7 @@ A simple project using `react-vpn-detector` to check if a user is connected via 
 2. Go to the project folder:
 
    ```bash
-   cd react-vpn-detector
+   cd vpn-detect
    ```
 
 3. Install dependencies:
