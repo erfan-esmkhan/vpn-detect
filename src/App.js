@@ -1,6 +1,10 @@
 import React from "react";
 import { useVPNDetector } from "react-vpn-detector";
 import "./app.css";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+
+
 
 const App = () => {
   const { isUsingVPN, data, error } = useVPNDetector({
@@ -111,9 +115,15 @@ const App = () => {
             </div>
           </>
         )}
-      </div>
-    </div>
+            <div className="author-container">
+              <span className="author">POWERED BY ERFAN-ESMKHANI</span>
+              <span class="developer icon1"><a className="hyperlink" href="https://github.com/erfan-esmkhan/"><FaGithub  /></a></span>
+              <span class="developer icon2"><a className="hyperlink" href="https://linkedin.com/in/erfan-esmkhani-7669182a6"><FaLinkedinIn /></a></span>
+            </div>
+            </div>
+            </div>
   );
 };
 
 export default App;
+
