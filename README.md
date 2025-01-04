@@ -25,7 +25,7 @@ A simple project using `react-vpn-detector` to check if a user is connected via 
 3. Install dependencies:
 
    ```bash
-   npm install
+   npm i
    ```
 
 4. Start the development server:
